@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* main :small alphabet
-*
-* Description: print lower alphabets
-*
+* main - entry point
+* Description: print alphabets
 * Return: 0
 */
 int main(void)
@@ -15,6 +13,6 @@ while (c <= 'z')
 putchar(c);
 c++;
 }
-putchar('\n');
+putchar('\n');				
 return (0);
 }
