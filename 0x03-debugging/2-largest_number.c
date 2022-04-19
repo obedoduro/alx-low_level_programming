@@ -9,9 +9,7 @@
 * Return: largest number
 */
 
-int main(void)
-{
-int a, b, c;
+int largest_number(int a, int b, int c){
 int largest;
 a = 972;
 b = -98;
