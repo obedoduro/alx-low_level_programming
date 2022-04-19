@@ -9,7 +9,7 @@
 * Return: largest number
 */
 
-int largest_number(int a, int b, int c){
+int main(void)
 int largest;
 a = 972;
 b = -98;
@@ -26,5 +26,5 @@ else
 {
 largest = c;
 }
-return (largest);
+printf("%d is the largest number\n", largest);
 }
