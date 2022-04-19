@@ -18,7 +18,7 @@ for (v = 0; v < n; v++)
 {
 if (v == i)
 _putchar('\\');
-else if (j < i)
+else if (v < a)
 _putchar(' ');
 }
 _putchar('\n');
