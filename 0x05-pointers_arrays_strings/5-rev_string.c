@@ -5,7 +5,7 @@
 * @a: the string to be reversed.
 */
 
-void rev_string(char *a)
+void rev_string(char *s)
 {
 int length,b,c;
 char v, z;
@@ -16,10 +16,10 @@ b = length - 1;
 c = 0;
 while (b > c)
 {
-v = a[c];
-z = a[b];
-a[b] = z;
-a[c] = v;
+v = s[c];
+z = s[b];
+s[b] = z;
+s[c] = v;
 b--;
 c++;
 }
