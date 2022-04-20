@@ -2,14 +2,14 @@
 
 /**
 * rev_string - reverses a string.
-* @a: the string to be reversed.
+* @s: the string to be reversed.
 */
 
 void rev_string(char *s)
 {
 int length,b,c;
 char v, z;
-for (length = 0; a[length] != '\0'; length++)
+for (length = 0; s[length] != '\0'; length++)
 {
 }
 b = length - 1;
