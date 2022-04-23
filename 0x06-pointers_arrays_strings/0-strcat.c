@@ -1,17 +1,25 @@
 #include "main.h"
+
 /**
-* _strcat - fills memory with a constant byte
-* @d: memory area to be filled
-* @c: character to copy
-* @rc: number of times to copy c
-* Return: pointer to the memory of d
+* _strcat - concatenates two strings.
+* @dest: first string.
+* @src: second string.
+* Return: dest string.
 */
-char *_strcat(char *d, char c, unsigned int rc)
+
+char *_strcat(char *dest, char *src)
 {
-unsigned int i;
-for (i = 0; i < n; i++)
+int i = 0, j = 0;
+while (dest[i] != '\0')
 {
-d[i] = c;
+i++;
 }
-return (d);
+while (src[j] != '\0')
+{
+dest[i] = src[j];
+i++;
+j++;
+}
+dest[i] = '\0';
+return (dest);
 }
