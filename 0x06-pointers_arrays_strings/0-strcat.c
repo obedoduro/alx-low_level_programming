@@ -7,7 +7,7 @@
 * @rc: number of times to copy c
 * Return: pointer to the memory of d
 */
-char *_strcat(char *d, char c, unsigned int rc)
+char *_memset(char *d, char c, unsigned int rc)
 {
 unsigned int i;
 for (i = 0; i < n; i++)
